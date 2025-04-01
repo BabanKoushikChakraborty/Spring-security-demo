@@ -45,7 +45,9 @@ public class SecurityConfig {
 		httpSecurity.sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 		return httpSecurity.build();
 	}
-	
+/*
+ *Hard coded values 
+ **/	
 //	@Bean
 //	public UserDetailsService userDetailsService() {
 //		
